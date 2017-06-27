@@ -1,0 +1,706 @@
+﻿Log file open, 06/27/17 19:28:36
+LogInit:Display: Running engine for game: RobotGame
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-820780099) SRandInit(-820780099).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.091019
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.27-18.28.37:095][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.27-18.28.37:095][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.27-18.28.37:103][  0]LogInit: Computer: CLEOPATRA
+[2017.06.27-18.28.37:103][  0]LogInit: User: Erinexx
+[2017.06.27-18.28.37:103][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.27-18.28.37:103][  0]LogInit: High frequency timer resolution =3.421874 MHz
+[2017.06.27-18.28.37:103][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.06.27-18.28.37:103][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.27-18.28.37:103][  0]LogMemory: Process Physical Memory: 270.02 MB used, 270.02 MB peak
+[2017.06.27-18.28.37:103][  0]LogMemory: Process Virtual Memory: 258.71 MB used, 258.71 MB peak
+[2017.06.27-18.28.37:103][  0]LogMemory: Physical Memory: 13712.92 MB used,  2620.37 MB free, 16333.29 MB total
+[2017.06.27-18.28.37:103][  0]LogMemory: Virtual Memory: 618.04 MB used,  2620.37 MB free, 134217728.00 MB total
+[2017.06.27-18.28.37:179][  0]LogInit: Using OS detected language (en-GB).
+[2017.06.27-18.28.37:179][  0]LogInit: Using OS detected locale (en-GB).
+[2017.06.27-18.28.37:182][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.06.27-18.28.38:125][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.27-18.28.38:144][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.06.27-18.28.38:144][  0]LogD3D11RHI:       8053/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.27-18.28.38:145][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.27-18.28.38:145][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.27-18.28.38:145][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.27-18.28.38:149][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.27-18.28.38:149][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.27-18.28.38:149][  0]LogWindows: EnumDisplayDevices:
+[2017.06.27-18.28.38:149][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.06.27-18.28.38:149][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.06.27-18.28.38:150][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.06.27-18.28.38:150][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.06.27-18.28.38:150][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.27-18.28.38:150][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.06.27-18.28.38:150][  0]LogD3D11RHI:   Driver Version: 375.70 (internal:21.21.13.7570, unified:375.70)
+[2017.06.27-18.28.38:150][  0]LogD3D11RHI:      Driver Date: 10-25-2016
+[2017.06.27-18.28.38:150][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.27-18.28.38:161][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.27-18.28.38:177][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.06.27-18.28.38:226][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Intermediate/Shaders/WorkingDirectory/12632/).
+[2017.06.27-18.28.38:227][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Erinexx/AppData/Local/Temp/UnrealShaderWorkingDir/AE5750E547BA6B750875B48FA99B69F8/'.
+[2017.06.27-18.28.38:227][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.27-18.28.39:278][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.27-18.28.39:335][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.27-18.28.39:392][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.27-18.28.39:446][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.27-18.28.39:512][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.27-18.28.39:571][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.27-18.28.39:628][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.27-18.28.39:685][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.27-18.28.39:737][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.27-18.28.39:795][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.27-18.28.39:853][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.27-18.28.39:915][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.27-18.28.39:969][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.27-18.28.40:024][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.27-18.28.40:078][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.27-18.28.40:186][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.27-18.28.40:186][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.27-18.28.40:231][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.27-18.28.40:330][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.27-18.28.40:359][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.27-18.28.40:414][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.27-18.28.40:471][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.27-18.28.40:535][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.27-18.28.40:588][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.27-18.28.40:588][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.27-18.28.41:141][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.27-18.28.41:240][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/Erinexx/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.27-18.28.41:240][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Erinexx/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.27-18.28.41:240][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.27-18.28.41:240][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.27-18.28.41:240][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.27-18.28.41:240][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.27-18.28.41:258][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.27-18.28.41:271][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Erinexx/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.27-18.28.41:280][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.27-18.28.41:280][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.27-18.28.41:281][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.27-18.28.41:281][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.27-18.28.41:646][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.27-18.28.41:724][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.27-18.28.41:882][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.27-18.28.41:932][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.27-18.28.41:988][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.27-18.28.41:988][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.27-18.28.41:988][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.27-18.28.42:591][  0]LogNetVersion: RobotGame , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 25865284)
+[2017.06.27-18.28.42:677][  0]LogAssetRegistry: FAssetRegistry took 0.0293 seconds to start up
+[2017.06.27-18.28.42:723][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.023542 seconds
+[2017.06.27-18.28.42:728][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.27-18.28.42:728][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.06.27-18.28.42:728][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.27-18.28.42:793][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.27-18.28.45:540][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.27-18.28.45:581][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.27-18.28.46:202][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.27-18.28.46:670][  0]SourceControl: Info Source control is disabled
+[2017.06.27-18.28.46:719][  0]SourceControl: Info Source control is disabled
+[2017.06.27-18.28.46:773][  0]SourceControl: Info Source control is disabled
+[2017.06.27-18.28.46:831][  0]SourceControl: Info Source control is disabled
+[2017.06.27-18.28.47:607][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.27-18.28.48:307][  0]LogEngine: Initializing Engine...
+[2017.06.27-18.28.50:658][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-7C987E5D
+[2017.06.27-18.28.50:987][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.27-18.28.50:987][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.27-18.28.51:194][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.27-18.28.51:217][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-18.28.51:224][  0]LogInit: FAudioDevice initialized.
+[2017.06.27-18.28.51:271][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/Erinexx/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.27-18.28.51:275][  0]LogInit: Texture streaming: Enabled
+[2017.06.27-18.28.51:402][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.27-18.28.51:713][  0]LogInit: Transaction tracking system initialized
+[2017.06.27-18.28.52:091][  0]BlueprintLog: New page: Editor Load
+[2017.06.27-18.28.53:278][  0]LocalizationService: Info Localization service is disabled
+[2017.06.27-18.28.54:207][  0]LogConsoleResponse:Display: 
+[2017.06.27-18.28.54:386][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.27-18.28.54:386][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.27-18.28.55:106][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/' took 0.02s
+[2017.06.27-18.28.55:618][  0]SourceControl: Info Source control is disabled
+[2017.06.27-18.28.55:618][  0]Cmd: MAP LOAD FILE="E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.27-18.28.55:619][  0]LightingResults: New page: Lighting Build
+[2017.06.27-18.28.55:665][  0]MapCheck: New page: Map Check
+[2017.06.27-18.28.55:665][  0]LightingResults: New page: Lighting Build
+[2017.06.27-18.28.55:962][  0]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2017.06.27-18.28.55:975][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.27-18.28.55:988][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.27-18.28.56:090][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 102.064ms to complete.
+[2017.06.27-18.28.56:090][  0]LogFileHelpers: Loading map 'TwinStickExampleMap' took 0.472
+[2017.06.27-18.28.56:227][  0]LogCollectionManager: Loaded 0 collections in 0.001600 seconds
+[2017.06.27-18.28.56:313][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/Collections/' took 0.01s
+[2017.06.27-18.28.56:313][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Developers/Erinexx/Collections/' took 0.01s
+[2017.06.27-18.28.56:313][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Collections/' took 0.01s
+[2017.06.27-18.28.56:313][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.06.27-18.28.56:322][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2329 classes and 491 folders.
+[2017.06.27-18.28.56:404][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.06.27-18.28.56:492][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.06.27-18.28.56:549][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.27-18.28.56:633][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.27-18.28.56:638][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.27-18.28.56:640][  0]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.27-18.28.56:645][  0]LogSlate: Took 0.000508 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.27-18.28.56:752][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.06.27-18.28.56:853][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-18.28.56:924][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.27-18.28.56:924][  0]LogLoad: (Engine Initialization) Total time: 21.50 seconds
+[2017.06.27-18.28.56:924][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.12 seconds
+[2017.06.27-18.28.56:924][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.27-18.28.56:924][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.27-18.28.57:263][  0]LogOcInput: OculusInput pre-init called
+[2017.06.27-18.28.57:263][  0]LogHMD: Starting GearVRController plugin
+[2017.06.27-18.28.57:286][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.27-18.28.57:330][  0]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.27-18.28.57:609][  1]LogAssetRegistry: Asset discovery search completed in 14.9537 seconds
+[2017.06.27-18.28.57:610][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.06.27-18.28.57:610][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2017.06.27-18.29.08:078][932]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.27-18.29.08:424][932]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.06.27-18.29.08:948][932]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.27-18.29.09:015][932]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.27-18.29.27:844][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/mg_loop" FILE="E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Audio/mg_loop.uasset" SILENT=true
+[2017.06.27-18.29.27:849][845]LogSavePackage: Save=3.68ms
+[2017.06.27-18.29.27:849][845]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/mg_loop2135C67F45A3EF7486C1848F92C84202.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Audio/mg_loop.uasset'
+[2017.06.27-18.29.27:851][845]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Audio/mg_loop.uasset
+[2017.06.27-18.29.27:859][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/TwinStickFire" FILE="E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Audio/TwinStickFire.uasset" SILENT=true
+[2017.06.27-18.29.27:863][845]LogSavePackage: Save=3.27ms
+[2017.06.27-18.29.27:863][845]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickFireF56FEE674BDB95E05BC96BBA9EA0FB78.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Audio/TwinStickFire.uasset'
+[2017.06.27-18.29.27:864][845]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Audio/TwinStickFire.uasset
+[2017.06.27-18.29.28:048][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/TwinStickPawn" FILE="E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset" SILENT=true
+[2017.06.27-18.29.28:142][845]LogSavePackage: Save=90.92ms
+[2017.06.27-18.29.28:142][845]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickPawn704D25944414864EB16872BE676900BD.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2017.06.27-18.29.28:143][845]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset
+[2017.06.27-18.29.45:732][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/TwinStickUFO" FILE="E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/TwinStickUFO.uasset" SILENT=true
+[2017.06.27-18.29.45:749][743]LogSavePackage: Save=15.64ms
+[2017.06.27-18.29.45:749][743]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickUFO61B81A64444E4825CF17DA810DDA6D9D.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/TwinStickUFO.uasset'
+[2017.06.27-18.29.45:750][743]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/TwinStickUFO.uasset
+[2017.06.27-18.29.45:877][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/TwinStickPawn" FILE="E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset" SILENT=true
+[2017.06.27-18.29.45:962][743]LogSavePackage: Save=83.85ms
+[2017.06.27-18.29.45:962][743]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickPawnCF7D5AB14C7AC0BE3119A082213C2DA9.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2017.06.27-18.29.45:964][743]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset
+[2017.06.27-18.29.52:563][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Meshes/BaseMaterial" FILE="E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/Meshes/BaseMaterial.uasset" SILENT=true
+[2017.06.27-18.29.52:587][516]LogSavePackage: Save=23.43ms
+[2017.06.27-18.29.52:587][516]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/BaseMaterial532FE8F04182174D47A616910E9BE22B.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/Meshes/BaseMaterial.uasset'
+[2017.06.27-18.29.52:589][516]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/Meshes/BaseMaterial.uasset
+[2017.06.27-18.29.52:605][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Meshes/OrangeMaterial" FILE="E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/Meshes/OrangeMaterial.uasset" SILENT=true
+[2017.06.27-18.29.52:619][516]LogSavePackage: Save=9.31ms
+[2017.06.27-18.29.52:619][516]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/OrangeMaterialEA31C63F49DEC439A4BE8C8B607F53A9.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/Meshes/OrangeMaterial.uasset'
+[2017.06.27-18.29.52:620][516]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/Meshes/OrangeMaterial.uasset
+[2017.06.27-18.29.52:626][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStick/Meshes/OrangeMaterial" FILE="E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStick/Meshes/OrangeMaterial.uasset" SILENT=true
+[2017.06.27-18.29.52:629][516]LogSavePackage: Save=0.70ms
+[2017.06.27-18.29.52:629][516]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/OrangeMaterial929DC5664F141D3E13455885426C6910.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStick/Meshes/OrangeMaterial.uasset'
+[2017.06.27-18.29.52:630][516]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStick/Meshes/OrangeMaterial.uasset
+[2017.06.27-18.29.52:645][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Meshes/TwinStickProjectile" FILE="E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/Meshes/TwinStickProjectile.uasset" SILENT=true
+[2017.06.27-18.29.52:654][516]LogSavePackage: Save=8.64ms
+[2017.06.27-18.29.52:654][516]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickProjectile60EE79DD446C8F8061225A9ABA0B702B.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/Meshes/TwinStickProjectile.uasset'
+[2017.06.27-18.29.52:656][516]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/Meshes/TwinStickProjectile.uasset
+[2017.06.27-18.29.52:670][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Meshes/BlueMaterial" FILE="E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/Meshes/BlueMaterial.uasset" SILENT=true
+[2017.06.27-18.29.52:680][516]LogSavePackage: Save=9.25ms
+[2017.06.27-18.29.52:680][516]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/BlueMaterialF04B7FF447A8B80AF58F29954540BBE2.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/Meshes/BlueMaterial.uasset'
+[2017.06.27-18.29.52:681][516]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/Meshes/BlueMaterial.uasset
+[2017.06.27-18.29.52:926][516]LogSavePackage: Save=29.76ms
+[2017.06.27-18.29.52:926][516]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickProjectileEA17C7F7404FE351BEA46FAFA58D4DF8.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Blueprints/TwinStickProjectile.uasset'
+[2017.06.27-18.29.52:927][516]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Blueprints/TwinStickProjectile.uasset
+[2017.06.27-18.29.52:930][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/TwinStickUFO" FILE="E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/TwinStickUFO.uasset" SILENT=true
+[2017.06.27-18.29.52:934][516]LogSavePackage: Save=2.32ms
+[2017.06.27-18.29.52:934][516]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickUFO33DC8D414C3313F791B6D592255E33CC.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/TwinStickUFO.uasset'
+[2017.06.27-18.29.52:935][516]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/TwinStickUFO.uasset
+[2017.06.27-18.29.56:697][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/BaseMaterial" FILE="E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/BaseMaterial.uasset" SILENT=true
+[2017.06.27-18.29.56:708][954]LogSavePackage: Save=10.32ms
+[2017.06.27-18.29.56:708][954]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/BaseMaterial877EE5664635557143B052BBEF01FCC3.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/BaseMaterial.uasset'
+[2017.06.27-18.29.56:709][954]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/BaseMaterial.uasset
+[2017.06.27-18.29.56:721][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/BlueMaterial" FILE="E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/BlueMaterial.uasset" SILENT=true
+[2017.06.27-18.29.56:731][954]LogSavePackage: Save=9.15ms
+[2017.06.27-18.29.56:731][954]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/BlueMaterial545CD3954BE9BF0C0EFECD8A4A284892.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/BlueMaterial.uasset'
+[2017.06.27-18.29.56:732][954]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/BlueMaterial.uasset
+[2017.06.27-18.29.56:744][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/OrangeMaterial" FILE="E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/OrangeMaterial.uasset" SILENT=true
+[2017.06.27-18.29.56:754][954]LogSavePackage: Save=9.12ms
+[2017.06.27-18.29.56:754][954]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/OrangeMaterialD48558A84E43276A0CADB5B53EB1B42F.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/OrangeMaterial.uasset'
+[2017.06.27-18.29.56:755][954]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/OrangeMaterial.uasset
+[2017.06.27-18.29.56:766][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/TwinStickProjectile" FILE="E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/TwinStickProjectile.uasset" SILENT=true
+[2017.06.27-18.29.56:775][954]LogSavePackage: Save=8.98ms
+[2017.06.27-18.29.56:775][954]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickProjectile2264AA2D426A93F4D6C331B72B8758EB.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/TwinStickProjectile.uasset'
+[2017.06.27-18.29.56:777][954]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/TwinStickProjectile.uasset
+[2017.06.27-18.29.57:035][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/TwinStickUFO" FILE="E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/TwinStickUFO.uasset" SILENT=true
+[2017.06.27-18.29.57:038][954]LogSavePackage: Save=2.07ms
+[2017.06.27-18.29.57:038][954]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickUFOE2DD74B4498A5C8EB4A52FA5D5F381B3.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/TwinStickUFO.uasset'
+[2017.06.27-18.29.57:039][954]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/TwinStickUFO.uasset
+[2017.06.27-18.29.57:041][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStick/Meshes/OrangeMaterial" FILE="E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStick/Meshes/OrangeMaterial.uasset" SILENT=true
+[2017.06.27-18.29.57:043][954]LogSavePackage: Save=0.82ms
+[2017.06.27-18.29.57:043][954]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/OrangeMaterial1110070A4E15105C5DD2059D21715805.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStick/Meshes/OrangeMaterial.uasset'
+[2017.06.27-18.29.57:043][954]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStick/Meshes/OrangeMaterial.uasset
+[2017.06.27-18.29.57:086][954]LogSavePackage: Save=29.10ms
+[2017.06.27-18.29.57:086][954]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickProjectile63546EE24D852EF2AFE3CFA937F7B701.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Blueprints/TwinStickProjectile.uasset'
+[2017.06.27-18.29.57:088][954]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Blueprints/TwinStickProjectile.uasset
+[2017.06.27-18.30.02:107][530]LogSavePackage: Save=108.84ms
+[2017.06.27-18.30.02:107][530]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickExampleMap9D049B5F488F738220308BA37BEF3409.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2017.06.27-18.30.02:109][530]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap.umap
+[2017.06.27-18.30.02:236][530]LogSavePackage: Save=110.80ms
+[2017.06.27-18.30.02:236][530]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickExampleMap_BuiltDataE8C67C324855FCCFA8721989CD7C486E.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset'
+[2017.06.27-18.30.02:237][530]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset
+[2017.06.27-18.30.05:349][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/CubeMaterial" FILE="E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/CubeMaterial.uasset" SILENT=true
+[2017.06.27-18.30.05:360][889]LogSavePackage: Save=10.51ms
+[2017.06.27-18.30.05:360][889]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/CubeMaterial8ACE0D254DBCAE97ED72F4AC3091955D.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/CubeMaterial.uasset'
+[2017.06.27-18.30.05:361][889]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Materials/CubeMaterial.uasset
+[2017.06.27-18.30.05:364][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/CubeMaterial" FILE="E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/CubeMaterial.uasset" SILENT=true
+[2017.06.27-18.30.05:366][889]LogSavePackage: Save=0.60ms
+[2017.06.27-18.30.05:366][889]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/CubeMaterial481D6C084C2CCD8103A7AF90B0DF427F.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/CubeMaterial.uasset'
+[2017.06.27-18.30.05:368][889]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/CubeMaterial.uasset
+[2017.06.27-18.30.06:140][961]LogSavePackage: Save=125.54ms
+[2017.06.27-18.30.06:140][961]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickExampleMapE31A2B744FE411E3786C9D8393DB4521.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2017.06.27-18.30.06:142][961]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap.umap
+[2017.06.27-18.30.06:235][961]LogSavePackage: Save=78.99ms
+[2017.06.27-18.30.06:235][961]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickExampleMap_BuiltData0D056A644B42212768096EA2C93BF230.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset'
+[2017.06.27-18.30.06:236][961]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset
+[2017.06.27-18.30.16:169][599]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\Users\Erinexx\Documents\GitHub\RobotGame\Assets\fbx\_playerbot_blockout.FBX)
+[2017.06.27-18.30.16:198][599]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.27-18.30.16:198][599]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.06.27-18.30.16:198][599]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.06.27-18.30.16:198][599]LogFbx: ItemName: Model, ItemCount : 1
+[2017.06.27-18.30.16:198][599]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.06.27-18.30.16:206][599]LogFbx: Loading FBX Scene from E:\Users\Erinexx\Documents\GitHub\RobotGame\Assets\fbx\_playerbot_blockout.FBX
+[2017.06.27-18.30.16:215][599]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-18.30.17:700][599]LogFbx: Loading FBX Scene from E:\Users\Erinexx\Documents\GitHub\RobotGame\Assets\fbx\_playerbot_blockout.FBX
+[2017.06.27-18.30.17:708][599]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-18.30.17:719][599]LogStaticMesh: Building static mesh _playerbot_blockout...
+[2017.06.27-18.30.17:810][599]LogStaticMesh: Built static mesh [0.09s] /Game/Geometry/Meshes/_playerbot_blockout._playerbot_blockout
+[2017.06.27-18.30.17:817][599]LogStaticMesh:Warning: _playerbot_blockout has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.06.27-18.30.17:831][599]FBXImport:Warning: Warning _playerbot_blockout has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.06.27-18.30.20:628][912]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/_playerbot_blockout" FILE="E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/_playerbot_blockout.uasset" SILENT=true
+[2017.06.27-18.30.20:638][912]LogSavePackage: Save=9.65ms
+[2017.06.27-18.30.20:638][912]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/_playerbot_blockoutF00F52874E0099B8612C74BAA7EF2D97.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/_playerbot_blockout.uasset'
+[2017.06.27-18.30.20:640][912]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/_playerbot_blockout.uasset
+[2017.06.27-18.30.30:842][116]LogSavePackage: Save=9.59ms
+[2017.06.27-18.30.30:842][116]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/_playerbot_blockoutA244A4FB4ED3D11AD199AA8D0AFDAABD.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/Robots/_playerbot_blockout.uasset'
+[2017.06.27-18.30.30:843][116]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/Robots/_playerbot_blockout.uasset
+[2017.06.27-18.30.39:094][ 64]LogSavePackage: Save=112.37ms
+[2017.06.27-18.30.39:094][ 64]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickExampleMapA8F56AA9417AC10E542826BA1F7BCDAE.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2017.06.27-18.30.39:095][ 64]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap.umap
+[2017.06.27-18.30.39:235][ 64]LogSavePackage: Save=78.60ms
+[2017.06.27-18.30.39:235][ 64]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickExampleMap_BuiltDataE72F17BC4C78B912534915AE5C7DAC58.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset'
+[2017.06.27-18.30.39:236][ 64]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset
+[2017.06.27-18.30.41:375][307]LogSavePackage: Save=9.58ms
+[2017.06.27-18.30.41:375][307]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/_playerbot_blockoutBF5DE47749A31FCB2D57F398E2960147.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/Bots/_playerbot_blockout.uasset'
+[2017.06.27-18.30.41:376][307]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/Bots/_playerbot_blockout.uasset
+[2017.06.27-18.30.41:972][348]LogSavePackage: Save=108.32ms
+[2017.06.27-18.30.41:972][348]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickExampleMap1FCD42C642D51C12E4D4FEB938791D25.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2017.06.27-18.30.41:973][348]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap.umap
+[2017.06.27-18.30.42:080][348]LogSavePackage: Save=74.79ms
+[2017.06.27-18.30.42:080][348]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickExampleMap_BuiltData807B145A4E6E6DC104DF78A22320676B.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset'
+[2017.06.27-18.30.42:081][348]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset
+[2017.06.27-18.30.42:876][401]LogRenderer: Reallocating scene render targets to support 1208x628 NumSamples 1 (Frame:1).
+[2017.06.27-18.30.48:027][986]LogSavePackage: Save=9.69ms
+[2017.06.27-18.30.48:027][986]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/_playerbot_blockout6F52B2C0474933B48BCD36850E30A1B9.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/Robots/PlayerBot/_playerbot_blockout.uasset'
+[2017.06.27-18.30.48:028][986]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/Robots/PlayerBot/_playerbot_blockout.uasset
+[2017.06.27-18.30.49:123][ 88]LogSavePackage: Save=108.12ms
+[2017.06.27-18.30.49:123][ 88]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickExampleMapBEECD4D14140D10E357DD3BCF4DD2AF4.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2017.06.27-18.30.49:124][ 88]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap.umap
+[2017.06.27-18.30.49:243][ 88]LogSavePackage: Save=105.73ms
+[2017.06.27-18.30.49:243][ 88]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickExampleMap_BuiltData817B76E5457CF75346C82FA418D9B65B.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset'
+[2017.06.27-18.30.49:244][ 88]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset
+[2017.06.27-18.31.01:835][290]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\Users\Erinexx\Documents\GitHub\RobotGame\Assets\fbx\_playerbot_blockout.FBX)
+[2017.06.27-18.31.01:840][290]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.27-18.31.01:840][290]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.06.27-18.31.01:840][290]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.06.27-18.31.01:840][290]LogFbx: ItemName: Model, ItemCount : 1
+[2017.06.27-18.31.01:840][290]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.06.27-18.31.01:845][290]LogFbx: Loading FBX Scene from E:\Users\Erinexx\Documents\GitHub\RobotGame\Assets\fbx\_playerbot_blockout.FBX
+[2017.06.27-18.31.01:852][290]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-18.31.03:109][290]LogFbx: Loading FBX Scene from E:\Users\Erinexx\Documents\GitHub\RobotGame\Assets\fbx\_playerbot_blockout.FBX
+[2017.06.27-18.31.03:116][290]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-18.31.03:123][290]LogStaticMesh: Building static mesh _playerbot_blockout...
+[2017.06.27-18.31.03:205][290]LogStaticMesh: Built static mesh [0.08s] /Game/Geometry/Meshes/Robots/PlayerBot/_playerbot_blockout._playerbot_blockout
+[2017.06.27-18.31.03:210][290]LogStaticMesh:Warning: _playerbot_blockout has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.06.27-18.31.03:221][290]FBXImport:Warning: Warning _playerbot_blockout has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.06.27-18.31.05:623][555]LogSavePackage: Save=107.03ms
+[2017.06.27-18.31.05:623][555]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickExampleMapC2B52D294A2277550A492487EE8A0034.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2017.06.27-18.31.05:624][555]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap.umap
+[2017.06.27-18.31.05:718][555]LogSavePackage: Save=77.27ms
+[2017.06.27-18.31.05:718][555]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickExampleMap_BuiltData371165C2407B9787047EC08649820E04.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset'
+[2017.06.27-18.31.05:719][555]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset
+[2017.06.27-18.31.08:107][782]LogSavePackage: Save=108.75ms
+[2017.06.27-18.31.08:107][782]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickExampleMapEA650BFF433188362ACD9D97DEECBC9E.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2017.06.27-18.31.08:108][782]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap.umap
+[2017.06.27-18.31.08:199][782]LogSavePackage: Save=75.62ms
+[2017.06.27-18.31.08:199][782]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickExampleMap_BuiltData6208E912418CC08FEDC99E9471847EA8.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset'
+[2017.06.27-18.31.08:200][782]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset
+[2017.06.27-18.31.08:907][851]LogSavePackage: Save=9.75ms
+[2017.06.27-18.31.08:907][851]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/_playerbot_blockoutECD25BA94A47254ECF92F69FAE759E50.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/Robots/PlayerBot/_playerbot_blockout.uasset'
+[2017.06.27-18.31.08:908][851]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/Robots/PlayerBot/_playerbot_blockout.uasset
+[2017.06.27-18.31.35:923][230]LogEditorFactories: Performing atomic reimport of [E:/Users/Erinexx/Documents/GitHub/RobotGame/Assets/fbx/_playerbot_blockout.FBX]
+[2017.06.27-18.31.35:945][230]LogFbx: Loading FBX Scene from E:/Users/Erinexx/Documents/GitHub/RobotGame/Assets/fbx/_playerbot_blockout.FBX
+[2017.06.27-18.31.35:952][230]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.27-18.31.35:968][230]LogStaticMesh: Building static mesh _playerbot_blockout...
+[2017.06.27-18.31.36:044][230]LogStaticMesh: Built static mesh [0.08s] /Game/Geometry/Meshes/Robots/PlayerBot/_playerbot_blockout._playerbot_blockout
+[2017.06.27-18.31.36:049][230]LogStaticMesh:Warning: _playerbot_blockout has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.06.27-18.31.36:059][230]LogEditorFactories: -- imported successfully
+[2017.06.27-18.31.36:060][230]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.06.27-18.31.36:060][230]FBXImport:Warning: Warning _playerbot_blockout has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.06.27-18.31.36:083][230]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.27-18.31.37:224][333]LogSavePackage: Save=9.76ms
+[2017.06.27-18.31.37:224][333]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/_playerbot_blockoutC93A6B024BCDF53EDE5A0C95D03B04FF.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/Robots/PlayerBot/_playerbot_blockout.uasset'
+[2017.06.27-18.31.37:226][333]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/Robots/PlayerBot/_playerbot_blockout.uasset
+[2017.06.27-18.31.37:462][360]LogActorFactory: Actor Factory created _playerbot_blockout
+[2017.06.27-18.31.37:700][388]LogActorFactory: Actor Factory created _playerbot_blockout
+[2017.06.27-18.31.39:988][639]Cmd: DELETE
+[2017.06.27-18.31.39:988][639]Cmd: ACTOR DELETE
+[2017.06.27-18.31.39:988][639]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.27-18.31.40:000][639]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.06.27-18.31.40:440][689]LogActorFactory: Actor Factory created _playerbot_blockout
+[2017.06.27-18.31.40:986][754]LogActorFactory: Actor Factory created _playerbot_blockout
+[2017.06.27-18.31.45:040][227]Cmd: DELETE
+[2017.06.27-18.31.45:040][227]Cmd: ACTOR DELETE
+[2017.06.27-18.31.45:041][227]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.27-18.31.45:052][227]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.06.27-18.31.45:786][299]LogSavePackage: Save=104.56ms
+[2017.06.27-18.31.45:786][299]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickExampleMap615A2E8B40927764D8394AA7A7C12902.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2017.06.27-18.31.45:787][299]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap.umap
+[2017.06.27-18.31.45:880][299]LogSavePackage: Save=77.41ms
+[2017.06.27-18.31.45:880][299]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickExampleMap_BuiltData261AAA064098A51B4D91CA8F38A13FB5.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset'
+[2017.06.27-18.31.45:881][299]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset
+[2017.06.27-18.31.51:374][896]LogSavePackage: Save=9.71ms
+[2017.06.27-18.31.51:374][896]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/_playerbot_blockoutCBAA7991454014465B1F33A15DD6A334.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/Robots/PlayerBot/_playerbot_blockout.uasset'
+[2017.06.27-18.31.51:375][896]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/Robots/PlayerBot/_playerbot_blockout.uasset
+[2017.06.27-18.31.52:190][982]LogSavePackage: Save=2.06ms
+[2017.06.27-18.31.52:190][982]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/_playerbot_blockoutB7A9A7E445A393D5235928A21939704F.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/Robots/PlayerBot/_playerbot_blockout.uasset'
+[2017.06.27-18.31.52:191][982]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Geometry/Meshes/Robots/PlayerBot/_playerbot_blockout.uasset
+[2017.06.27-18.32.02:721][ 58]LogSavePackage: Save=106.72ms
+[2017.06.27-18.32.02:721][ 58]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickExampleMapBD98D0394B46BBBAD95C75A7E6ED02F9.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2017.06.27-18.32.02:722][ 58]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap.umap
+[2017.06.27-18.32.02:815][ 58]LogSavePackage: Save=78.47ms
+[2017.06.27-18.32.02:815][ 58]LogSavePackage: Moving 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/TwinStickExampleMap_BuiltData37754C7147A86B303128DBBF461D0AFB.tmp' to 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset'
+[2017.06.27-18.32.02:816][ 58]LogSavePackage:Display: Finished SavePackage E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset
+[2017.06.27-18.32.03:889][181]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.27-18.32.04:037][182]Cmd: QUIT_EDITOR
+[2017.06.27-18.32.04:062][182]LogExit: Preparing to exit.
+[2017.06.27-18.32.04:766][182]LogExit: Editor shut down
+[2017.06.27-18.32.04:771][182]LogExit: Transaction tracking system shut down
+[2017.06.27-18.32.04:855][182]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.27-18.32.04:855][182]LogExit: Object subsystem successfully closed.
+[2017.06.27-18.32.04:872][182]LogD3D11RHI: Shutdown
+[2017.06.27-18.32.04:872][182]LogD3D11RHI: CleanupD3DDevice
+[2017.06.27-18.32.04:940][182]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.27-18.32.04:977][182]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (530)
+[2017.06.27-18.32.04:977][182]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.06.27-18.32.04:977][182]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.06.27-18.32.04:977][182]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.06.27-18.32.04:977][182]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.06.27-18.32.04:977][182]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.06.27-18.32.04:977][182]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.06.27-18.32.04:977][182]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.06.27-18.32.04:978][182]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.06.27-18.32.04:978][182]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.06.27-18.32.04:978][182]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.06.27-18.32.04:978][182]LogDirectoryWatcher: A directory notification for 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Collections/' was aborted.
+[2017.06.27-18.32.04:978][182]LogDirectoryWatcher: A directory notification for 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/Developers/Erinexx/Collections/' was aborted.
+[2017.06.27-18.32.04:978][182]LogDirectoryWatcher: A directory notification for 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Saved/Collections/' was aborted.
+[2017.06.27-18.32.04:978][182]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.06.27-18.32.04:978][182]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.06.27-18.32.04:978][182]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.06.27-18.32.04:978][182]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.06.27-18.32.04:978][182]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.06.27-18.32.04:978][182]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.06.27-18.32.04:978][182]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.06.27-18.32.04:978][182]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.06.27-18.32.04:978][182]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.06.27-18.32.04:978][182]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.06.27-18.32.04:978][182]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.06.27-18.32.04:978][182]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.06.27-18.32.04:978][182]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.06.27-18.32.04:978][182]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.06.27-18.32.04:979][182]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.06.27-18.32.04:979][182]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.06.27-18.32.04:979][182]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.06.27-18.32.04:979][182]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.06.27-18.32.04:979][182]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.06.27-18.32.04:979][182]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.06.27-18.32.04:979][182]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.06.27-18.32.04:979][182]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.06.27-18.32.04:979][182]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.06.27-18.32.04:979][182]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.06.27-18.32.04:979][182]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.06.27-18.32.04:979][182]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.06.27-18.32.04:979][182]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.06.27-18.32.04:979][182]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.06.27-18.32.04:979][182]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.06.27-18.32.04:979][182]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.06.27-18.32.04:979][182]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.06.27-18.32.04:979][182]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.06.27-18.32.04:979][182]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.06.27-18.32.04:979][182]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.06.27-18.32.04:979][182]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.06.27-18.32.04:979][182]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.06.27-18.32.04:979][182]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.06.27-18.32.04:979][182]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.06.27-18.32.05:855][182]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.06.27-18.32.05:855][182]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.06.27-18.32.05:855][182]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.06.27-18.32.05:855][182]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.06.27-18.32.05:855][182]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.06.27-18.32.05:855][182]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.06.27-18.32.05:855][182]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.06.27-18.32.05:855][182]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.06.27-18.32.05:855][182]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.06.27-18.32.05:855][182]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.06.27-18.32.05:855][182]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.06.27-18.32.05:856][182]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.06.27-18.32.05:856][182]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.06.27-18.32.05:856][182]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.06.27-18.32.05:856][182]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.06.27-18.32.05:856][182]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.06.27-18.32.05:856][182]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.06.27-18.32.05:856][182]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.06.27-18.32.05:856][182]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.06.27-18.32.05:856][182]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.06.27-18.32.05:856][182]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.06.27-18.32.05:856][182]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.06.27-18.32.05:856][182]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.06.27-18.32.05:856][182]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.06.27-18.32.05:899][182]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.06.27-18.32.05:899][182]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.06.27-18.32.05:899][182]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.06.27-18.32.05:899][182]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.06.27-18.32.05:899][182]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.06.27-18.32.05:899][182]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.06.27-18.32.05:899][182]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.06.27-18.32.05:899][182]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.06.27-18.32.05:899][182]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.06.27-18.32.05:899][182]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.06.27-18.32.05:904][182]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.06.27-18.32.05:904][182]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.06.27-18.32.05:904][182]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.06.27-18.32.05:904][182]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.06.27-18.32.05:904][182]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.06.27-18.32.05:904][182]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.06.27-18.32.05:904][182]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.06.27-18.32.05:904][182]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.06.27-18.32.05:904][182]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.06.27-18.32.05:904][182]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.06.27-18.32.05:904][182]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.06.27-18.32.05:904][182]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.06.27-18.32.05:904][182]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.06.27-18.32.05:904][182]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.06.27-18.32.05:904][182]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.06.27-18.32.05:904][182]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.06.27-18.32.05:904][182]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.06.27-18.32.05:904][182]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.06.27-18.32.05:904][182]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.06.27-18.32.05:904][182]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.06.27-18.32.06:124][182]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.06.27-18.32.06:125][182]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.06.27-18.32.06:125][182]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.06.27-18.32.06:125][182]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.06.27-18.32.06:125][182]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.06.27-18.32.06:126][182]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.06.27-18.32.06:126][182]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.06.27-18.32.06:126][182]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.06.27-18.32.06:126][182]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.06.27-18.32.06:126][182]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.06.27-18.32.06:226][182]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.06.27-18.32.06:326][182]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.06.27-18.32.06:326][182]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.06.27-18.32.06:326][182]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.06.27-18.32.06:326][182]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.06.27-18.32.06:326][182]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.06.27-18.32.06:326][182]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.06.27-18.32.06:326][182]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.06.27-18.32.06:326][182]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.06.27-18.32.06:326][182]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.06.27-18.32.06:326][182]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.06.27-18.32.06:327][182]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.06.27-18.32.06:327][182]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.06.27-18.32.06:327][182]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.06.27-18.32.06:327][182]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.06.27-18.32.06:327][182]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.06.27-18.32.06:327][182]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.06.27-18.32.06:327][182]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.06.27-18.32.06:327][182]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.06.27-18.32.06:327][182]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.06.27-18.32.06:327][182]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.06.27-18.32.06:327][182]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.06.27-18.32.06:327][182]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.06.27-18.32.06:327][182]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.06.27-18.32.06:327][182]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.06.27-18.32.06:327][182]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.06.27-18.32.06:327][182]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.06.27-18.32.06:327][182]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.06.27-18.32.06:327][182]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.06.27-18.32.06:327][182]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.06.27-18.32.06:330][182]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.06.27-18.32.06:330][182]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.06.27-18.32.06:330][182]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.06.27-18.32.06:330][182]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.06.27-18.32.06:330][182]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.06.27-18.32.06:330][182]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.06.27-18.32.06:431][182]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.27-18.32.06:431][182]LogDirectoryWatcher: A directory notification for 'E:/Users/Erinexx/Documents/GitHub/RobotGame/RobotGame/Content/' was aborted.
+[2017.06.27-18.32.06:431][182]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.27-18.32.06:431][182]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.06.27-18.32.06:432][182]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.06.27-18.32.06:433][182]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.06.27-18.32.06:433][182]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.06.27-18.32.06:433][182]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.06.27-18.32.06:433][182]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.06.27-18.32.06:434][182]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.06.27-18.32.06:434][182]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.06.27-18.32.06:434][182]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.06.27-18.32.06:434][182]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.06.27-18.32.06:534][182]LogDerivedDataCache: Shutdown
+[2017.06.27-18.32.06:534][182]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.06.27-18.32.06:534][182]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.06.27-18.32.06:534][182]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.06.27-18.32.06:534][182]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.06.27-18.32.06:534][182]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.06.27-18.32.06:534][182]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.06.27-18.32.06:534][182]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.06.27-18.32.06:534][182]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.06.27-18.32.06:534][182]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.06.27-18.32.06:534][182]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.06.27-18.32.06:534][182]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.06.27-18.32.06:534][182]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.06.27-18.32.06:534][182]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.06.27-18.32.06:534][182]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.06.27-18.32.06:534][182]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.06.27-18.32.06:534][182]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.06.27-18.32.06:534][182]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.06.27-18.32.06:534][182]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.06.27-18.32.06:535][182]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.06.27-18.32.06:535][182]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.06.27-18.32.06:535][182]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.27-18.32.06:535][182]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE8A98F6A-4C03-8F0E-01F3-DFBCCDD4C1AF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=edf6c2994ab4ecd663ffe9b5011e8d7c%7C3c08101a9e374f0d9347bd6e22d94a49%7C28748f8c-e7be-4a6f-88d3-5cdf8892930b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.27-18.32.06:539][182]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.06.27-18.32.06:540][182]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.06.27-18.32.06:540][182]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.06.27-18.32.06:540][182]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.06.27-18.32.06:540][182]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.27-18.32.06:540][182]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.27-18.32.06:540][182]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.27-18.32.06:540][182]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.27-18.32.06:540][182]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.27-18.32.06:540][182]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.27-18.32.06:540][182]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.27-18.32.06:540][182]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.27-18.32.06:540][182]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.27-18.32.06:540][182]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.27-18.32.06:540][182]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.27-18.32.06:540][182]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.27-18.32.06:540][182]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.27-18.32.06:540][182]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.27-18.32.06:540][182]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.27-18.32.06:542][182]LogExit: Exiting.
+[2017.06.27-18.32.06:549][182]Log file closed, 06/27/17 19:32:06
