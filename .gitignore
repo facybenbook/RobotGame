@@ -45,3 +45,12 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# saved files to ignore
+ue4/Intermediate/
+ue4/Saved/
+ue4/gameMain/Intermediate/
+ue4/gamemain/Saved/
+/Saved
+*.ini
+*.ini
